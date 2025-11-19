@@ -1,4 +1,4 @@
-/* Style global */
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f6f7fb;
@@ -7,7 +7,7 @@ body {
   color: #333;
 }
 
-/* Navigation */
+
 nav {
   background-color: #1e88e5;
   padding: 12px 20px;
@@ -30,7 +30,7 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-/* Contenu */
+
 h1, h2, h3 {
   color: #1e88e5;
   margin-top: 30px;
@@ -48,7 +48,7 @@ li {
   margin-bottom: 8px;
 }
 
-/* Carte container */
+
 .container {
   background: #fff;
   padding: 25px;
@@ -58,7 +58,7 @@ li {
   box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
 }
 
-/* Formulaire */
+
 form {
   margin-top: 20px;
 }
@@ -86,7 +86,7 @@ button:hover {
   background-color: #1565c0;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 15px 0;
