@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<h1>Liste des tâches (<%= count %>)</h1>
+
+<ul>
+  <% tasks.forEach(task => { %>
+    <li>
+      <%= task.title %> — 
+      <% if (task.done) { %> ✔️ <% } else { %> ❌ <% } %>
+    </li>
+  <% }) %>
+</ul>
+
+<h2>Ajouter une tâche</h2>
+
+<form method="POST" action="/api/tasks">
+  <input type="text" name="title" placeholder="Titre de la tâche">
+  <button type="submit">Ajouter</button>
+</form>
+
+<%- include('partials/footer') %>
